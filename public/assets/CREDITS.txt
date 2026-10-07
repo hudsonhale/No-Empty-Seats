@@ -1,0 +1,18 @@
+LITTLEST TOKYO
+By Glen Fox (glenatron)
+Author: https://www.artstation.com/glenatron
+Artwork: https://www.artstation.com/artwork/1AGwX
+Original source: https://sketchfab.com/3d-models/littlest-tokyo-94b24a60dc1b48248de50bf087c0f042
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+The model is used with attribution as the artist-made centerpiece of the No Empty Seats concept. Its geometry, hand-painted textures, and animated objects are by Glen Fox. It has been decoded from Draco compression, normalized in scale, repositioned, and lit within a larger original environment. Original alley extensions, underground scenes, characters, agent choreography and application code are separate additions; Glen Fox did not create or endorse this application.
+
+Bundled full-fidelity uncompressed GLB obtained from the BabylonJS/Babylon-Lite repository:
+https://github.com/BabylonJS/Babylon-Lite/blob/994b6a3d1956868f87d9446eaed88b6998ad6f79/lab/public/littlest-tokyo/LittlestTokyo.glb
+Asset credit in that repository:
+https://github.com/BabylonJS/Babylon-Lite/blob/994b6a3d1956868f87d9446eaed88b6998ad6f79/lab/public/littlest-tokyo/CREDITS.txt
+SHA256: 3504289bfb183f0cfef0f1606c9c7764a0fe642f8aba67c0eed46a6f5563b77c
+
+THREE.JS
+Three.js r160 and the adapted GLTFLoader / toTrianglesDrawMode utility are MIT licensed, copyright the three.js authors. See ../vendor/THREE-LICENSE.txt.

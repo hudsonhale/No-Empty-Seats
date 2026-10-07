@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#ece7dd"><meta name="description" content="A little world of possibilities. One shot at a night out in New York.">
+<title>No Empty Seats</title><link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div id="nes-app" class="nes-app" data-state="idle">
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="No Empty Seats home"><span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>no empty seats<span class="brand-dot">.</span><small>NYC · NEXT 24H</small></span></a>
+    <div class="city-clock" hidden><time data-clock></time></div>
+    <div class="top-actions"><span data-mode class="mode-tag">DEMO</span><button class="quiet-button" data-sound aria-pressed="false">Sound off</button><button class="quiet-button" data-fullscreen hidden>Full screen</button></div>
+  </header>
+  <main>
+    <section class="city-stage" aria-label="A living miniature neighborhood">
+      <canvas data-city role="img" aria-label="A fixed view of a detailed miniature neighborhood with roof terraces, shops, alleys, subway and canal. Little people share the same scale. Launch once for one surprise."></canvas>
+      <div class="world-loading" data-world-loading role="status">Opening the city…</div>
+      <div class="stage-vignette" aria-hidden="true"></div>
+      <div class="hero-copy" data-hero hidden><p data-kicker></p><h1 data-headline>No Empty Seats</h1><p data-hero-note></p></div>
+      <div data-scout-caption hidden></div>
+      <div class="filmstrip" data-filmstrip hidden><span data-phase="0"></span><span data-phase="1"></span><span data-phase="2"></span><span data-phase="3"></span></div>
+      <div class="search-signal" data-search-signal hidden><span class="signal-pulse" aria-hidden="true"></span><span data-search-text>Looking…</span><span data-elapsed hidden></span></div>
+      <div class="result-wrap" data-result hidden></div>
+      <div class="world-label" hidden><span data-world-label></span></div>
+      <section class="control-deck" data-deck>
+        <button class="launch-button" data-launch disabled><span class="launch-star" aria-hidden="true">✦</span><span>Find my seat</span><span class="launch-arrow" aria-hidden="true">↗</span></button>
+        <div class="launch-options" data-idle-options><div class="party-picker" role="group" aria-label="Number of seats"><button data-party="1" aria-pressed="true">1 seat</button><button data-party="2" aria-pressed="false">2 seats</button></div><button class="needs-button" data-needs-toggle aria-expanded="false" aria-controls="nes-needs">Preferences <span aria-hidden="true">+</span></button></div>
+        <div class="deck-caption" data-deck-caption><strong>One shot.</strong> <span data-promise>On us.</span></div>
+        <div class="search-dock" data-search-dock hidden><strong data-dock-title></strong><span data-dock-note></span></div>
+        <button class="reset-button" data-reset hidden>Next demo guest <span aria-hidden="true">↗</span></button>
+      </section>
+      <section class="needs-panel" id="nes-needs" data-needs hidden aria-label="Party requirements"><label><input type="checkbox" data-adults> Everyone is 21+</label><label><input type="checkbox" data-step-free> Step-free access required</label><span>Starts in 45 minutes to 24 hours.</span></section>
+      <label class="admission" data-admission hidden>Entry code<input data-code autocomplete="off" placeholder="From your activation host"></label>
+    </section>
+    <p class="inline-error" data-error role="alert" hidden></p>
+    <details class="source-details" data-source-details hidden><summary>Sources <span aria-hidden="true">↗</span></summary><div data-sources></div><div class="search-attribution" data-grounding hidden><strong>From Google Search</strong><div data-search-suggestions></div></div></details>
+  </main>
+  <footer class="footer"><span class="gemini-lockup"><span class="gemini-star" aria-hidden="true">✦</span> Built for <strong>Gemini</strong></span><span data-disclosure>Simulated search &amp; booking</span><details class="world-credits"><summary>World credits</summary><p><a href="https://sketchfab.com/3d-models/littlest-tokyo-94b24a60dc1b48248de50bf087c0f042" target="_blank" rel="noopener noreferrer">Littlest Tokyo</a> by Glen Fox · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>. Reframed and lit with new neighborhood extensions. Independent concept.</p></details></footer>
+  <div class="sr-only" data-announcement role="status" aria-live="polite"></div>
+</div>
+<script src="/vendor/three.min.js"></script><script src="/vendor/gltf-loader.js"></script><script src="/district-details.js"></script><script src="/undercity.js"></script><script src="/world.js"></script><script src="/scene.js"></script><script src="/artist-scene.js"></script><script src="/transport.js"></script><script src="/app.js"></script>
+</body>
+</html>

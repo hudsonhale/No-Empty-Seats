@@ -1,0 +1,17 @@
+{
+  "name": "no-empty-seats",
+  "version": "1.4.0",
+  "private": true,
+  "description": "One city. One chance. One unexpected seat. A Gemini-powered activation concept.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env server/index.mjs",
+    "start": "node --env-file-if-exists=.env server/index.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check public/app.js && node --check public/scene.js && node --check public/world.js && node --check public/district-details.js && node --check public/undercity.js && node --check public/artist-scene.js && node --check public/vendor/gltf-loader.js && node --check public/transport.js && node --check server/index.mjs && node --check server/providers.mjs",
+    "codes": "node --env-file-if-exists=.env server/admission.mjs"
+  }
+}
